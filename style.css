@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.wrap {
+    max-width: 500px;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 50px;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 52px;
+    color: white;
+}
+.div {
+    display: flex;
+    flex-wrap:wrap;
+
+}
+.square {
+    width: 33.3%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.text {
+    font-size: 24px;
+    color: white;
+    
+
+}
+.square.none {
+    opacity: 0;
+
+}
